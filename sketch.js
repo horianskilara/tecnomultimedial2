@@ -232,16 +232,6 @@ function getPitch() {
 }
 function imprimirData(){
 
-  background(255);
-  push();
-  textSize(16);
-  fill(0);
-  let texto;
-  texto = 'amplitud: ' + amp;
-  text(texto, 10, 20);
-
-  texto = 'frecuencia: ' + frecuencia;
-  text(texto, 10, 40);
-  pop();
+  background(240);
 
 }
